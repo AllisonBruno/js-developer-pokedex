@@ -125,6 +125,7 @@
 .pokemon .detail img {
     max-width: 100%;
     height: 70px;
+    cursor: pointer;
 }
 
 .pagination {
@@ -162,4 +163,86 @@
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+.card {
+    background-color:  #77c850;
+    width: 30%;
+    display: none;
+    flex-direction: column;
+    border-radius: 20px;
+    border-bottom-left-radius: 16%;
+    border-bottom-right-radius: 16%;
+    list-style: none;
+    color: #fff;
+    margin: auto;
+    
+    
+}
+#numero {
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.nome {
+    margin-left: 20px;
+    font-size: 20px;
+}
+.tipo {
+    
+  padding: .10rem 1rem;
+  font-size: .625rem;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.254);
+  text-align: center;
+  margin-left: 5px;
+  
+}
+
+.card img {
+    max-width: 150%;
+    height: 150px;
+    margin-bottom: -35px;
+    
+}
+.detalhes {
+    text-align: center;
+    
+}
+#icons {
+    display: flex;
+    gap: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#arrow{
+    cursor: pointer;
+}
+#card-branco {
+    width: 100%;
+    height: 50vh;
+    background-color: #ffffffe6;
+    color: #000;
+    border-radius: 50px;
+    
+}
+#container-table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 20px;
+    
+}
+#container-table th {
+    color: rgba(128, 128, 128, 0.475);
+}
+.cont{
+    background-color: rgba(128, 128, 128, 0.187);
+    
 }
